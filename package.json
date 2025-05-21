@@ -1,0 +1,41 @@
+{
+  "name": "hostaqui-extension-pack",
+  "displayName": "Hostaqui Extension Pack",
+  "description": "Conjunto de extensões para você migrar ou reconfigurar seu visual studio code sem perder tempo.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "publisher.extensionName",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "ecmel.vscode-html-css",
+    "redhat.vscode-yaml",
+    "redhat.vscode-xml",
+    "golang.Go",
+    "bmewburn.vscode-intelephense-client",
+    "PKief.material-icon-theme",
+    "EditorConfig.EditorConfig",
+    "yzhang.markdown-all-in-one",
+    "bradlc.vscode-tailwindcss",
+    "dracula-theme.theme-dracula",
+    "mikestead.dotenv",
+    "HashiCorp.terraform",
+    "adpyke.codesnap",
+    "Prisma.prisma",
+    "styled-components.vscode-styled-components",
+    "kamikillerto.vscode-colorize",
+    "biomejs.biome",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "ritwickdey.LiveServer",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-python.vscode-pylance",
+    "ms-python.python"
+  ]
+}
