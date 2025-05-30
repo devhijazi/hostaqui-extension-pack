@@ -2,21 +2,33 @@
   "name": "hostaqui-extension-pack",
   "displayName": "Hostaqui Extension Pack",
   "description": "Conjunto de extensões para você migrar ou reconfigurar seu visual studio code sem perder tempo.",
-  "version": "0.0.1",
-  "main": "./out/extension.js",
+  "version": "1.0.0",
+  "publisher": "HOSTAQUI",
   "icon": "images/logo.png",
   "author": {
-    "name": "Gabriel Hijazi"
+    "name": "Gabriel Hijazi",
+    "email": "contato@gabrielhijazi.com.br"
   },
   "galleryBanner": {
     "color": "#09131b",
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.84.0"
   },
   "categories": [
-    "Extension Packs"
+    "Extension Packs",
+    "Debuggers",
+    "Language Packs",
+    "Formatters",
+    "Linters",
+    "Keymaps",
+    "Snippets",
+    "Azure",
+    "Themes",
+    "Programming Languages",
+    "Data Science",
+    "Testing"
   ],
   "extensionPack": [
     "publisher.extensionName",
