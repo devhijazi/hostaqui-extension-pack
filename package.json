@@ -3,13 +3,22 @@
   "displayName": "Hostaqui Extension Pack",
   "description": "Conjunto de extensões para você migrar ou reconfigurar seu visual studio code sem perder tempo.",
   "version": "0.0.1",
+  "main": "./out/extension.js",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "Gabriel Hijazi"
+  },
+  "galleryBanner": {
+    "color": "#09131b",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
+  "extensionPack": [
     "publisher.extensionName",
     "ms-azuretools.vscode-docker",
     "ms-vscode-remote.remote-containers",
